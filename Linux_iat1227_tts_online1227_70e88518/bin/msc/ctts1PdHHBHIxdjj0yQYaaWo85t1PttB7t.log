@@ -1,0 +1,113 @@
+============================================================
+Time  2023/12/12 19:43:25 512 
+============================================================
+[2023/12/12 19:43:25 513] tts        811  SYS_MSG_REGCB param0 =  msp_status_cb  param1 =  func(8c01e680) 
+[2023/12/12 19:43:25 513] config     43   use general cloud  
+[2023/12/12 19:43:25 515] tts_cloud  1438 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(8c01e680) 
+[2023/12/12 19:43:25 515] tts        782  TTS_MSG_SSB  
+[2023/12/12 19:43:25 515] tts        434  params =  voice_name = xiaoyan, text_encoding = utf8, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2  
+[2023/12/12 19:43:25 515] tts        273  auf=audio/L16;rate=16000  
+[2023/12/12 19:43:25 515] tts        273  auf=audio/L16;rate=16000  
+[2023/12/12 19:43:25 515] tts        475  ssb|use cloud  
+[2023/12/12 19:43:25 515] tts_cloud  1409 SYS_MSG_LOAD_CLOUD  
+[2023/12/12 19:43:25 515] tts_cloud  964  TTS_MSG_SSB_CLOUD  
+[2023/12/12 19:43:25 515] tts_cloud  987  tts  ctts1PdHHBHIxdjj0yQYaaWo85t1PttB7t  268436457  1573471853  
+[2023/12/12 19:43:25 515] tts_cloud  1033 not login!  
+[2023/12/12 19:43:25 515] tts_cloud  1164 need_decode  true  
+[2023/12/12 19:43:25 515] tts_cloud  1165 aue=  speex-wb;7   auf=  audio/L16;rate=16000  
+[2023/12/12 19:43:25 515] tts_cloud  1187 User set url is   nil  
+[2023/12/12 19:43:25 515] transport  645  paramkvsport is   nil  
+[2023/12/12 19:43:25 515] transport  657  ns_enable=  1  
+[2023/12/12 19:43:25 515] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2023/12/12 19:43:25 515] transport  665  net.nettype=  unknown  
+[2023/12/12 19:43:25 515] transport  675  url.full=  nil  
+[2023/12/12 19:43:25 515] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2023/12/12 19:43:25 515] transport  907  net type:  unknown  
+[2023/12/12 19:43:25 515] transport  908  net operator:  def  
+[2023/12/12 19:43:25 515] transport  909  use proxy:  false  
+[2023/12/12 19:43:25 516] transport  1105 session.domain=  open.xf-yun.com  
+[2023/12/12 19:43:25 516] transport  1106 url.host=  open.xf-yun.com  
+[2023/12/12 19:43:25 516] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2023/12/12 19:43:25 516] transport  1179 try preferred port:  nil  
+[2023/12/12 19:43:25 516] transport  1083 NAMESERVER START  
+[2023/12/12 19:43:25 516] transport  1086 name =   tts  
+[2023/12/12 19:43:25 516] ns         634  ntt=  unknown  
+[2023/12/12 19:43:25 516] transport  1089 trans,ns_inprog =  0  
+[2023/12/12 19:43:25 516] ns         582  name server start  
+[2023/12/12 19:43:25 516] ns         588  ns_sub =   tts  
+[2023/12/12 19:43:25 516] ns         596  ns_host =   open.xf-yun.com  
+[2023/12/12 19:43:25 516] ns         475  ns_host=  open.xf-yun.com  
+[2023/12/12 19:43:25 516] ns         555  net_type =  standard  
+[2023/12/12 19:43:25 516] ns         556  cmwapascmnet =  
+[2023/12/12 19:43:25 516] ns         557  uniwapasuninet =  
+[2023/12/12 19:43:25 516] ns         558  ctwapasctnet =  
+[2023/12/12 19:43:25 516] ns         576  host=  hdns.xf-yun.com  
+[2023/12/12 19:43:25 516] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2023/12/12 19:43:25 516] tts        789  TTS_MSG_SYN  0  
+[2023/12/12 19:43:25 516] tts        541  synth|use cloud  
+[2023/12/12 19:43:25 516] tts_cloud  1207 TTS_MSG_SYN_CLOUD  
+[2023/12/12 19:43:25 516] tts_cloud  1218 remote_connected =  false  
+[2023/12/12 19:43:25 516] tts        792  TTS_MSG_GETAUDIO  0  
+[2023/12/12 19:43:25 516] tts        674  get audio|use cloud  
+[2023/12/12 19:43:25 516] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2023/12/12 19:43:25 586] network    245  dns resp  0  ns1  
+[2023/12/12 19:43:25 586] ns         422  ns dns ok  101.200.180.128  
+[2023/12/12 19:43:25 587] ns         202  iplist not avail  
+[2023/12/12 19:43:25 587] ns         429  is_voicecloud_ip=  0  
+[2023/12/12 19:43:25 587] ns         436  ip_is_expected=  true  
+[2023/12/12 19:43:25 587] ns         444  ip_is_expected=  true  
+[2023/12/12 19:43:25 587] network    445  gethttpresp2  101.200.180.128  80  ns2  
+[2023/12/12 19:43:25 587] network    465  prot_type  tcp  
+[2023/12/12 19:43:25 605] transport  194  [dns] [1] response 114.118.65.92  
+[2023/12/12 19:43:25 606] transport  202  114  118  65  92  
+[2023/12/12 19:43:25 606] transport  204  ipv =  v4  
+[2023/12/12 19:43:25 606] transport  208  dns ip is v4  
+[2023/12/12 19:43:25 606] transport  130  iplist not avail  
+[2023/12/12 19:43:25 606] transport  247  no iplist now  
+[2023/12/12 19:43:25 606] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  114.118.65.92  
+[2023/12/12 19:43:25 608] transport  291  dns cb start conn  
+[2023/12/12 19:43:25 608] transport  1304 [soc] connect   114.118.65.92  1028  
+[2023/12/12 19:43:25 608] transport  1316 mspsoc.open,prot_type=  tcp  
+[2023/12/12 19:43:25 660] network    350  connected  ns2  
+[2023/12/12 19:43:25 660] network    353  send ok  268  ns2  
+[2023/12/12 19:43:25 666] tts        792  TTS_MSG_GETAUDIO  0  
+[2023/12/12 19:43:25 666] tts        674  get audio|use cloud  
+[2023/12/12 19:43:25 667] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2023/12/12 19:43:25 711] network    362  readable  ns2  
+[2023/12/12 19:43:25 711] network    366  HTTP/1.1 200 OK
+Server: iflytek/hdns
+Date: Tue, 12 Dec 2023 11:43:25 GMT
+Content-Type: application/json
+Content-Length: 314
+Connection: close
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"tts","ips":[{"ip":"121.37.220.137","port":80,"idc":"gz"},{"ip":"121.37.244.117","port":80,"idc":"gz"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"tts","ips":[{"ip":"121.37.244.117","port":80,"idc":"gz"}],"ttl":6000,"compel":0}]}]}  
+[2023/12/12 19:43:25 711] ns         253  name server http resp  0  
+[2023/12/12 19:43:25 711] ns         266  ns response OK for this time!  
+[2023/12/12 19:43:25 711] ns         277  from_server=  iflytek/hdns  
+[2023/12/12 19:43:25 712] ns         360  compel :  0  
+[2023/12/12 19:43:25 712] transport  1063 ns_ip =   121.37.220.137  
+[2023/12/12 19:43:25 712] transport  1064 ip_type =  assigned_ttsopen.xf-yun.com_host  
+[2023/12/12 19:43:25 712] ns         670  no data in ns_q  
+[2023/12/12 19:43:25 712] ns         671  conti_ns,ns_inprog =   1  
+[2023/12/12 19:43:25 825] tts        792  TTS_MSG_GETAUDIO  0  
+[2023/12/12 19:43:25 825] tts        674  get audio|use cloud  
+[2023/12/12 19:43:25 825] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2023/12/12 19:43:25 975] tts        792  TTS_MSG_GETAUDIO  0  
+[2023/12/12 19:43:25 975] tts        674  get audio|use cloud  
+[2023/12/12 19:43:25 975] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2023/12/12 19:43:26 125] tts        792  TTS_MSG_GETAUDIO  0  
+[2023/12/12 19:43:26 125] tts        674  get audio|use cloud  
+[2023/12/12 19:43:26 125] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2023/12/12 19:43:26 276] tts        792  TTS_MSG_GETAUDIO  0  
+[2023/12/12 19:43:26 276] tts        674  get audio|use cloud  
+[2023/12/12 19:43:26 276] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2023/12/12 19:43:26 427] tts        792  TTS_MSG_GETAUDIO  0  
+[2023/12/12 19:43:26 427] tts        674  get audio|use cloud  
+[2023/12/12 19:43:26 427] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2023/12/12 19:43:26 577] tts        792  TTS_MSG_GETAUDIO  0  
+[2023/12/12 19:43:26 577] tts        674  get audio|use cloud  
+[2023/12/12 19:43:26 577] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  
+[2023/12/12 19:43:26 728] tts        792  TTS_MSG_GETAUDIO  0  
+[2023/12/12 19:43:26 728] tts        674  get audio|use cloud  
+[2023/12/12 19:43:26 728] tts_cloud  1302 TTS_MSG_GETAUDIO_CLOUD | synth_status  1  

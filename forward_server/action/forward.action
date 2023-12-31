@@ -1,0 +1,12 @@
+#goal definition
+float64 line
+float64 linear_velocity
+float64 time
+---
+#result definition
+float64 output_x
+float64 output_y
+---
+#feedback definition
+float64 feedback_x
+float64 feedback_y
