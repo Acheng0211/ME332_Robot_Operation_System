@@ -1,0 +1,15 @@
+<launch>
+
+        <!-- Launch Gazebo  -->
+    <!-- <include file="$(find mbot_gazebo)/launch/mbot_laser_nav_gazebo.launch" /> -->
+
+    <!-- ros_control arm launch file -->
+    <include file="$(find mbot_gazebo)/launch/arm_gazebo_states.launch" />   
+
+    <!-- ros_control trajectory control dof arm launch file -->
+    <include file="$(find mbot_gazebo)/launch/arm_trajectory_controller.launch" />
+
+    <!-- moveit launch file -->
+    <include file="$(find arm_with_mbot_moveit_config)/launch/moveit_planning_execution.launch" />
+
+</launch>

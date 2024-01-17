@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: mbot_description
+    relative_path: urdf/urdf/robot.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/mbot_with_camera_gazebo.srdf
+  CONFIG:
+    author_name: Acheng
+    author_email: 12111820@mail.sustech.edu.cn
+    generated_timestamp: 1704098486
